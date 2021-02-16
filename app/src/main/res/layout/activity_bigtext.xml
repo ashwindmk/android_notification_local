@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:layout_marginBottom="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".BigTextActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Big Text"
+            android:layout_marginBottom="24dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="ID">
+            <EditText
+                android:id="@+id/id_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Tag">
+            <EditText
+                android:id="@+id/tag_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Title">
+            <EditText
+                android:id="@+id/title_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Text">
+            <EditText
+                android:id="@+id/text_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Ticker">
+            <EditText
+                android:id="@+id/ticker_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Big Title">
+            <EditText
+                android:id="@+id/bigtitle_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Big Text">
+            <EditText
+                android:id="@+id/bigtext_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Summary">
+            <EditText
+                android:id="@+id/summary_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="BIG TEXT"
+            android:onClick="notifyBigText"
+            android:layout_marginBottom="24dp" />
+    </LinearLayout>
+</ScrollView>
